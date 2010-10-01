@@ -3,4 +3,6 @@
     <string name="hello">Hello World, FoodView!</string>
     <string name="app_name">at.elektroschock.eyefood</string>
     <string name="upload_title">post food</string>
+    
+    <string name="place">Name of place</string>
 </resources>
