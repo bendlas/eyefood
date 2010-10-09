@@ -22,10 +22,14 @@ public class FoodView extends Activity {
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+    	Intent intent;
     	switch(item.getItemId()) {
-    	case R.id.upload:
-    		Intent intent = new Intent(this, UploadView.class);
-    		startActivity(intent);
+	    	case R.id.upload:
+	    		intent = new Intent(this, UploadView.class);
+	    		startActivity(intent);
+	    	case R.id.placesView:
+	    		intent = new Intent(this, PlacesView.class);
+	    		startActivity(intent);
     	}
     	return true;
     }

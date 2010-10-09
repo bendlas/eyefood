@@ -17,6 +17,11 @@
         	android:screenOrientation="portrait">
         </activity>
         
+        <activity android:name=".PlacesView" 
+        	android:label="@string/placesView_title"
+        	android:screenOrientation="portrait">
+        </activity>
+        
         <service android:name=".UploadService" 
         	android:label="Upload food" 
         	android:enabled="true" 
