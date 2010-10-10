@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, FoodView!</string>
-    <string name="app_name">at.elektroschock.eyefood</string>
+    <string name="app_name">Eye Food</string>
     <string name="upload_title">post food</string>
     <string name="placesView_title">places</string>
+    <string name="createPlaceView_title">Add place</string>
     
     <string name="place">Name of place:</string>
     <string name="click">click to select...</string>

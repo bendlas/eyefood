@@ -22,6 +22,16 @@
         	android:screenOrientation="portrait">
         </activity>
         
+        <activity android:name=".CreatePlaceView" 
+        	android:label="@string/createPlaceView_title"
+        	android:screenOrientation="portrait">
+        	<intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        
         <service android:name=".UploadService" 
         	android:label="Upload food" 
         	android:enabled="true" 
